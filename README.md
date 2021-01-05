@@ -1,1 +1,1 @@
-Prácticas para entender los callbacks, asíncronismo, utilizar API.
+Prácticas para entender los callbacks, asincronismo, utilizar API.
