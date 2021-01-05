@@ -1,0 +1,19 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "Practicas de asincronismo en js",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Ildefonso Muro",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
