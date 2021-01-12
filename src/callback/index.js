@@ -9,15 +9,12 @@ function fetchData(url_api, callback) {
     xhttp.onreadystatechange = (event) => {
         // el state 4 es el ultimo de la peticion
         if (xhttp.readyState === 4) {
-            // verificamos que el status este en 200, que dice que bien, no un 400 o 500
             if (xhttp.status === 200) {
                 // el primer valor es el err, y el siguiente el resultado
                 // ejecutamos el callback con el resultado
                 callback(null, JSON.parse(xhttp.responseText));
             } else {
-                // si no es 200
                 let error = new Error('Error: ' + url_api);
-                // matamos el proceso con un error
                 return callback(error, null);
             }
         }

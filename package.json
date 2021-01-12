@@ -4,7 +4,8 @@
   "description": "Practicas de asincronismo en js",
   "main": "index.js",
   "scripts": {
-    "callbackapi": "node src/callback/index.js"
+    "callbacks": "node src/callback/index.js",
+    "promise": "node src/promise/index.js"
   },
   "keywords": [
     "callbacks",
